@@ -6,6 +6,7 @@ class DataStructures:
         self.lists()
         self.tuples()
         self.dictionaries()
+        self.sets()
 
     def lists(self):
         # can contain duplicates, different types, and are mutable
@@ -34,3 +35,12 @@ class DataStructures:
         print(my_info.get("age"))
         for key, value in my_info.items():
             print(key, value)
+
+    def sets(self):
+        # does not allow for duplicate values
+        demo_set = {1, 2, 3, 4, 5}
+        demo_set.add(8)
+        demo_set.remove(3)
+        print(demo_set)
+        demo_set.clear()
+        print(demo_set)
