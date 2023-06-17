@@ -46,7 +46,7 @@ class Motherboard:
 
 class PowerSupplyUnit:
     def __init__(self, screen: Screen, device_name: str, motherboard: Motherboard):
-        print(f'Powering on {device_name}')
+        print(f'Powering on {device_name}, Please wait ...')
         screen.power_on()
         motherboard.power_on()
 
