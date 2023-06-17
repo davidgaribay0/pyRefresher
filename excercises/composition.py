@@ -39,7 +39,7 @@ class Motherboard:
     def power_on(self):
         try:
             self.health_checks()
-            print("Motherboard is turning on...")
+            print("Motherboard is turning on please wait...")
         except Exception as e:
             print(e)
 
