@@ -1,3 +1,4 @@
+from algorithms.sorted_squared_array import sorted_squared_array
 from algorithms.two_number_sum import two_number_sum
 from algorithms.validate_subsequence import is_valid_subsequence
 from excercises.composition import DesktopComputer, Laptop
@@ -13,7 +14,8 @@ def main():
     # ds.run()
     # dc = DesktopComputer('English')
     # lp = Laptop('English')
-    print(two_number_sum([3, 5, -4, 8, 11, 1, -1, 6], 10))
+    # print(two_number_sum([3, 5, -4, 8, 11, 1, -1, 6], 10))
+    print(sorted_squared_array([-5, -4, -3, -2, -1]))
 
 
 if __name__ == "__main__":
