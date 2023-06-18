@@ -1,3 +1,4 @@
+from algorithms.two_number_sum import two_number_sum
 from algorithms.validate_subsequence import is_valid_subsequence
 from excercises.composition import DesktopComputer, Laptop
 from refresher.data_structures import DataStructures
@@ -10,8 +11,9 @@ def main():
     # loop.run()
     # ds = DataStructures()
     # ds.run()
-    dc = DesktopComputer('English')
-    lp = Laptop('English')
+    # dc = DesktopComputer('English')
+    # lp = Laptop('English')
+    print(two_number_sum([3, 5, -4, 8, 11, 1, -1, 6], 10))
 
 
 if __name__ == "__main__":
